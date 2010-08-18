@@ -5,10 +5,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "nocms"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "dlrush@gmail.com"
-    gem.homepage = "http://github.com/drush/nocms"
+    gem.summary = %Q{A Ruby client for the NOCMS.org web service API.  Provides server-side helpers for Rails/Sinatra/Rack applications.}
+    gem.description = %Q{A Ruby client for the NOCMS.org web service API.  Provides server-side helpers for Rails/Sinatra/Rack applications.}
+    gem.email = "nocms@powcloud.com"
+    gem.homepage = "http://github.com/powcloud/nocms"
     gem.authors = ["Darren Rush"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings

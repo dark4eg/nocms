@@ -1,6 +1,11 @@
 = nocms
 
-Description goes here.
+NOCMS is a web service that allows you to add basic Content Management to any website.  It provides wiki-style editing with a
+few lines of Javascript, and server-sdie rendering and user authentication support with just some simple server-side integration.
+
+If you've ever been involved in hand-to-hand combat with a big, ugly, hard to customize Content Management System (CMS), then NOCMS might be right for your.
+
+http://www.nocms.org/
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +19,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 Darren Rush. See LICENSE for details.
+Copyright (c) 2010 PowCloud Inc. See LICENSE for details.
