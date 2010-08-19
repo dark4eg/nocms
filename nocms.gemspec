@@ -24,6 +24,8 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/nocms.rb",
+     "nocms-0.1.0.gem",
+     "nocms.gemspec",
      "test/helper.rb",
      "test/test_nocms.rb"
   ]
@@ -43,11 +45,14 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+      s.add_runtime_dependency(%q<active_support>, [">= 3"])
     else
       s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+      s.add_dependency(%q<active_support>, [">= 3"])
     end
   else
     s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+    s.add_dependency(%q<active_support>, [">= 3"])
   end
 end
 
