@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "nocms"
     gem.summary = %Q{A Ruby client for the NOCMS.org web service API.  Provides server-side helpers for Rails/Sinatra/Rack applications.}
-    gem.description = %Q{A Ruby client for the NOCMS.org web service API.  Provides server-side helpers for Rails/Sinatra/Rack applications.}
+    gem.description = %Q{A Ruby client for the NOCMS.org web service API.  Provides server-side helpers for Rails/Sinatra/Rack applications. keywords: ruby, rails, sinatra, rack, CMS, content management systems, search, cloud, SAAS, JSON, web service}
     gem.email = "nocms@powcloud.com"
     gem.homepage = "http://github.com/powcloud/nocms"
     gem.authors = ["Darren Rush"]

@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{nocms}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Darren Rush"]
   s.date = %q{2010-08-18}
-  s.description = %q{A Ruby client for the NOCMS.org web service API.  Provides server-side helpers for Rails/Sinatra/Rack applications.}
+  s.description = %q{A Ruby client for the NOCMS.org web service API.  Provides server-side helpers for Rails/Sinatra/Rack applications. keywords: ruby, rails, sinatra, rack, CMS, content management systems, search, cloud, SAAS, JSON, web service}
   s.email = %q{nocms@powcloud.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -24,7 +24,6 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/nocms.rb",
-     "nocms-0.1.0.gem",
      "nocms.gemspec",
      "test/helper.rb",
      "test/test_nocms.rb"
