@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{nocms}
-  s.version = "0.2.0"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Darren Rush"]
-  s.date = %q{2010-08-20}
+  s.date = %q{2010-08-23}
   s.description = %q{A Ruby client for the NOCMS.org web service API.  Provides server-side helpers for Rails/Sinatra/Rack applications. keywords: ruby, rails, sinatra, rack, CMS, content management systems, search, cloud, SAAS, JSON, web service}
   s.email = %q{nocms@powcloud.com}
   s.extra_rdoc_files = [

@@ -1,22 +1,36 @@
 = NOCMS
 
-NOCMS is a web service that allows you to add basic Content Management to any website.  
-It provides wiki-style editing with a few lines of Javascript, and server-side rendering 
-and user authentication support with just some simple server-side integration.
+NOCMS is a web service that allows you to add basic WYSIWYG Content Management to any website.  
+It provides wiki-style editing with a few lines of Javascript.  Add just a few lines more to
+your application and you get server-side rendering and 'editor' authentication.
 
-If you've ever been involved in hand-to-hand combat with a big, ugly, hard to customize 
-Content Management System (CMS), then NOCMS might be right for you.
+The NOCMS gem provides server-side integration with api.nocms.org for ruby applications built on the Rails or Sinatra frameworks.
+
+NOCMS is for you if:
+* You want to add WYSIWYG editing to an existing static website
+* Wordpress, Drupal and similar OSS Content Management Systems are too much for your needs
+* You want to add basic CMS functions to your existing web app
+
+FEATURES (NOCMS RUBY GEM)
+* Wiki-style WYSIWYG editing with just 3 lines of Javascript
+* Server-side rendering of content for SEO purposes and improved performance
+* Caching via native Rails.cache or a custom Sinatra cache (Hash)
+* nocms_block() view helper for adding editable blocks to your pages/views
 
 Website: http://www.nocms.org
 Mailing List: http://groups.google.com/group/nocms
 Twitter: http://twitter.com/powcloud
 
 == Changes
-
+* 0.3.0 
+  * FEA: Add path_has_content? which returns true if the given path has content in the cache in either the current language or the default language
+* 0.2.1
+  * BUG: Fix a serialization bug for the keys list, now using Sets
 * 0.2.0 
-  * Added Rails support incl. caching
-  * First stab at unit tests
-* 0.1.0 First prototype of the ruby gem - Sinatra support
+  * FEA: Added Rails support incl. caching
+  * FEA: First stab at unit tests
+* 0.1.0 
+  * FEA: First prototype of the ruby gem - Sinatra support
 
 
 == Note on Patches/Pull Requests
