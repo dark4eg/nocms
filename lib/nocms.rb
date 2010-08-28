@@ -73,6 +73,24 @@ module NoCMS
         paths.include?("/#{lang}#{path}") || paths.include?("/#{lang_default}#{path}")
       end
       
+      def site_index()
+        ensure_cache()
+      
+        tmp = cache.read("NOCMS:#{NoCMS::Base.site}:paths")
+        paths = !tmp.nil? ? Set.new(ActiveSupport::JSON.decode(tmp)) : Set.new
+        
+        path_hash = {}
+        paths.each { |p|
+          matches = p.match /\/([^\/]+)(\/.*)/
+          lang = matches[1]
+          path = matches[2]
+          path_hash[path] ||= Set.new
+          path_hash[path] << lang
+        }
+        
+        return path_hash
+      end
+            
       def load_cache
         start_time = Time.now
         raise '[NOCMS] Must specify a site' if NoCMS::Base.site.nil?

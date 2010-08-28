@@ -22,6 +22,8 @@ Mailing List: http://groups.google.com/group/nocms
 Twitter: http://twitter.com/powcloud
 
 == Changes
+* 0.4.0
+  * FEA: Add site_index which returns a hash of paths with an array of the languages for each
 * 0.3.0 
   * FEA: Add path_has_content? which returns true if the given path has content in the cache in either the current language or the default language
 * 0.2.1
