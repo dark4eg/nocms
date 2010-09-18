@@ -22,6 +22,8 @@ Mailing List: http://groups.google.com/group/nocms
 Twitter: http://twitter.com/powcloud
 
 == Changes
+* 0.4.1
+  * MINOR: Change to bundler to move toward CI support
 * 0.4.0
   * FEA: Add site_index which returns a hash of paths with an array of the languages for each
 * 0.3.0 
